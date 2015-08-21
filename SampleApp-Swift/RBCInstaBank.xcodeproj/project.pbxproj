@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		0A1AA90E1B7E11A000D81E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1AA90D1B7E11A000D81E8A /* Main.storyboard */; };
 		0A1AA9101B7E187C00D81E8A /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AA90F1B7E187C00D81E8A /* FinalViewController.swift */; };
-		0A8DD68E1B711C6F004B56BC /* slideUpSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DD68D1B711C6F004B56BC /* slideUpSegue.swift */; };
 		0A9DD9B91B7DEF5C00AB3B50 /* PickUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD9B81B7DEF5C00AB3B50 /* PickUpViewController.swift */; };
 		0A9DD9BC1B7DF3DA00AB3B50 /* DateProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD9BA1B7DF3DA00AB3B50 /* DateProgressView.swift */; };
 		0A9DD9BD1B7DF3DA00AB3B50 /* LightProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD9BB1B7DF3DA00AB3B50 /* LightProgressView.swift */; };
 		0ADEF0DA1B7147AB00DCD454 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF0D91B7147AB00DCD454 /* MenuViewController.swift */; };
+		170781251B877EB4001E4678 /* slideUpSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170781241B877EB4001E4678 /* slideUpSegue.swift */; };
 		D534F1C71A324F63003C3AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534F1C61A324F63003C3AB4 /* AppDelegate.swift */; };
 		D534F1C91A324F63003C3AB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534F1C81A324F63003C3AB4 /* LoginViewController.swift */; };
 		D534F1CE1A324F63003C3AB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D534F1CD1A324F63003C3AB4 /* Images.xcassets */; };
@@ -36,11 +36,11 @@
 		0A167E231B77C1230036CE52 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0A1AA90D1B7E11A000D81E8A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0A1AA90F1B7E187C00D81E8A /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
-		0A8DD68D1B711C6F004B56BC /* slideUpSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = slideUpSegue.swift; path = /Users/Kevin/Dropbox/Developer/RBCInstaBank/RBCInstaBank/../slideUpSegue.swift; sourceTree = "<absolute>"; };
 		0A9DD9B81B7DEF5C00AB3B50 /* PickUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickUpViewController.swift; sourceTree = "<group>"; };
 		0A9DD9BA1B7DF3DA00AB3B50 /* DateProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateProgressView.swift; sourceTree = "<group>"; };
 		0A9DD9BB1B7DF3DA00AB3B50 /* LightProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightProgressView.swift; sourceTree = "<group>"; };
 		0ADEF0D91B7147AB00DCD454 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		170781241B877EB4001E4678 /* slideUpSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = slideUpSegue.swift; path = ../slideUpSegue.swift; sourceTree = "<group>"; };
 		D534F1C11A324F63003C3AB4 /* RBCInstaBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBCInstaBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D534F1C51A324F63003C3AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D534F1C61A324F63003C3AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		D534F1C31A324F63003C3AB4 /* SampleApp-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				0A8DD68D1B711C6F004B56BC /* slideUpSegue.swift */,
+				170781241B877EB4001E4678 /* slideUpSegue.swift */,
 				D534F1C61A324F63003C3AB4 /* AppDelegate.swift */,
 				D534F1C81A324F63003C3AB4 /* LoginViewController.swift */,
 				0ADEF0D91B7147AB00DCD454 /* MenuViewController.swift */,
@@ -214,7 +214,6 @@
 				TargetAttributes = {
 					D534F1C01A324F63003C3AB4 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 34Q76DM7UX;
 					};
 					D534F1D51A324F63003C3AB4 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -270,9 +269,9 @@
 				0A9DD9BC1B7DF3DA00AB3B50 /* DateProgressView.swift in Sources */,
 				0A9DD9BD1B7DF3DA00AB3B50 /* LightProgressView.swift in Sources */,
 				D534F1C71A324F63003C3AB4 /* AppDelegate.swift in Sources */,
+				170781251B877EB4001E4678 /* slideUpSegue.swift in Sources */,
 				0A9DD9B91B7DEF5C00AB3B50 /* PickUpViewController.swift in Sources */,
 				0A1AA9101B7E187C00D81E8A /* FinalViewController.swift in Sources */,
-				0A8DD68E1B711C6F004B56BC /* slideUpSegue.swift in Sources */,
 				0ADEF0DA1B7147AB00DCD454 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
